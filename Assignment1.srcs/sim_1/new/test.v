@@ -2,27 +2,24 @@
 
 module test;
     
-    reg A, B, C, D;
+    reg [3:0] in;
     wire led1;
     
     Dataflow uut (
     
-    .A(A),
-    .B(B),
-    .C(C),
-    .D(D),
+    .in(in),
     .led1(led1));
     
 initial begin 
     
     #100
-     A = 0;  B = 0;
+     in[0] = 0;  in[1] = 0;
     #100
-    A = 0;  B = 1;
+    in[0] = 0;  in[1] = 1;
     #100
-    A = 1;  B = 0;
+    in[0] = 1;  in[1] = 0;
     #100
-    A = 1;  B = 1;
+    in[0] = 1;  in[1] = 1;
     
 end
 

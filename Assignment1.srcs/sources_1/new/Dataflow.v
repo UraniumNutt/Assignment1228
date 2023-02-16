@@ -2,11 +2,11 @@
 
 module Dataflow(
 
-    input A, B, C, D,
+    input [3:0] in,
     output led1
 
     );
     
-    assign led1 = A & B;
+    assign led1 = in[0] & in[1];
     
 endmodule
