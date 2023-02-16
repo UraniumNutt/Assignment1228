@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/uraniumnutt/Documents/VerilogProjects/Assignment1228/Part2/Assignment1Part2.srcs/sources_1/new/Dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/uraniumnutt/Documents/VerilogProjects/Assignment1228/Part2/Assignment1Part2.srcs/sim_1/new/DataflowTest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataflowTest
