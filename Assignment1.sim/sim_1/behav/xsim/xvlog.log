@@ -1,4 +1,8 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/uraniumnutt/Assignment1/Assignment1.srcs/sources_1/new/Dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/uraniumnutt/Documents/VerilogProjects/Assignment1228/Assignment1.srcs/sources_1/new/Structural.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Structural
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/uraniumnutt/Documents/VerilogProjects/Assignment1228/Assignment1.srcs/sources_1/new/Dataflow.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Dataflow
-INFO: [VRFC 10-2263] Analyzing Verilog file "/home/uraniumnutt/Assignment1/Assignment1.srcs/sim_1/new/test.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module test
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/uraniumnutt/Documents/VerilogProjects/Assignment1228/Assignment1.srcs/sim_1/new/StructuralTest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StructuralTest
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/uraniumnutt/Documents/VerilogProjects/Assignment1228/Assignment1.srcs/sim_1/new/DataflowTest.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DataflowTest
