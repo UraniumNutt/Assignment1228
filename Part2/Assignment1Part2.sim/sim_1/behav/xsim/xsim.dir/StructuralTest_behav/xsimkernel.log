@@ -1,0 +1,4 @@
+Running: xsim.dir/StructuralTest_behav/xsimk -simmode gui -wdb StructuralTest_behav.wdb -simrunnum 0 -socket 55105
+Design successfully loaded
+Design Loading Memory Usage: 28880 KB (Peak: 29512 KB)
+Design Loading CPU Usage: 20 ms

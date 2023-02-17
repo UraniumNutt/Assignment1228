@@ -4,7 +4,7 @@ module Structural(
     input wire [7:0] A,
     input wire [3:0] B,
     input [3:0] C, // note: it does not look like C is ever refrenced in part 2
-    output reg [7:0] Q
+    output wire [7:0] Q
     );
 
     wire [3:0] odd_bits =  {A[7], A[5], A[3], A[1]}; // concatenation of the bits into one reg
@@ -18,7 +18,7 @@ module Structural(
 
     wire Cout;
 
-    xnor xnor1(parity, odd_bits[3], odd_bits[2], odd_bits[1], odd_bits[0]);
+    xor xor1(parity, odd_bits[3], odd_bits[2], odd_bits[1], odd_bits[0]);
 
     EightBitInverter Binvert(bInverted, B_8bit);
 
