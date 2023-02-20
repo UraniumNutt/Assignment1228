@@ -12,3 +12,5 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "/home/uraniumnutt/Documents/Verilog
 INFO: [VRFC 10-311] analyzing module Structural
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/uraniumnutt/Documents/VerilogProjects/Assignment1228/Part2/Assignment1Part2.srcs/sim_1/new/StructuralTest.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module StructuralTest
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/uraniumnutt/Documents/VerilogProjects/Assignment1228/Part2/Assignment1Part2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
