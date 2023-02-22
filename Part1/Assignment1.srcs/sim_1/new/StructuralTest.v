@@ -1,6 +1,9 @@
 `timescale 1ns / 1ps
 
-module StructuralTest; // this is the test module for testing the Structural version
+// Ethan Thummel / UraniumNutt 02/22/23
+
+// this is the test module for testing the Structural version
+module StructuralTest; 
     
     reg A, B, C, D;
     wire led1;
@@ -13,7 +16,8 @@ module StructuralTest; // this is the test module for testing the Structural ver
     .D(D),
     .led2(led2));
     
-initial begin // go through every combination of inputs
+// go through every combination of inputs
+initial begin 
     
     #100
     A = 0;  B = 0; C = 0; D = 0; //0
@@ -63,9 +67,6 @@ initial begin // go through every combination of inputs
     #100
     A = 1;  B = 1; C = 1; D = 1; //15
 
-   
-    
 end
-
-    
+ 
 endmodule

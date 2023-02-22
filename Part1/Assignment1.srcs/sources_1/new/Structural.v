@@ -1,5 +1,7 @@
 `timescale 1ns / 1ps
 
+// Ethan Thummel / UraniumNutt 02/22/23
+
 module Structural( 
 
     input A, B, C, D,
@@ -7,17 +9,19 @@ module Structural(
 
     );
 
-    wire And1, And2, An, Bn, Cn, Dn; // intermediate wires
+    // intermediate wires
+    wire And1, And2, An, Bn, Cn, Dn; 
 
-   not notA(An, A); // provide inverted terms
-   not notB(Bn, B);
-   not notC(Cn, C);
-   not notD(Dn, D);
-
-   and and1(And1, An, B, Cn, D); // or gate for first minterm
-
-   and and2(And2, An, Bn, C, Dn); // or gate for second minterm
-
-   or or1(led2, A, And1, And2); // final and gate
+    // provide inverted terms
+    not notA(An, A); 
+    not notB(Bn, B);
+    not notC(Cn, C);
+    not notD(Dn, D);
+    // or gate for first minterm
+    and and1(And1, An, B, Cn, D); 
+    // or gate for second minterm
+    and and2(And2, An, Bn, C, Dn); 
+    // final and gate
+    or or1(led2, A, And1, And2); 
 
 endmodule
