@@ -2,3 +2,5 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "/home/uraniumnutt/Documents/Verilog
 INFO: [VRFC 10-311] analyzing module FourBitShiftRegister
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/uraniumnutt/Documents/VerilogProjects/Assignment1228/Assignment2/Question 1/Question1.srcs/sim_1/new/Question1Testbench.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Question1Testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/uraniumnutt/Documents/VerilogProjects/Assignment1228/Assignment2/Question 1/Question1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
