@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/uraniumnutt/Documents/VerilogProjects/Assignment1228/Assignment3/8-5/Eight-Five.srcs/sources_1/new/Circuit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Circuit
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/uraniumnutt/Documents/VerilogProjects/Assignment1228/Assignment3/8-5/Eight-Five.srcs/sim_1/new/Testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Testbench
